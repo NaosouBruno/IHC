@@ -1,0 +1,15 @@
+#titulo{
+    text-align:center;
+    font-size: 60px;
+    padding-top: 15px;
+}
+
+#menu{
+    text-align:center;
+    padding-top:200px;
+}
+
+.botoes-menu{
+    font-size: 25px;
+    margin: 10px;
+}
