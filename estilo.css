@@ -1,7 +1,23 @@
+/*
+* 
+* @author Bruno Silva 
+* @version 0.1
+* Imagens .svg costumam se repetir, por isso usar o no-repeat
+* Background-size define o tamanho de uma imagem dentro de um background
+*/
+
+/* ========================= Index ======================== */
+
+body{
+    background: linear-gradient(to right, #0000CD, #191970)
+}
+
 #titulo{
     text-align:center;
     font-size: 60px;
     padding-top: 15px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
 }
 
 #menu{
@@ -9,7 +25,121 @@
     padding-top:200px;
 }
 
+
+
 .botoes-menu{
-    font-size: 25px;
     margin: 10px;
+    border-radius: 500px;
+    color: black;
+    background-color:white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.botoes-menu:hover{
+    background-color: #06acdf;
+    transition: 0.4s;
+    
+}
+
+.rodape{
+    padding-top: 100px;
+    text-align:center;
+    font-size:20px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+/* ========================= Jogo ======================== */
+
+.texto-jogo{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10rem;
+    
+}
+
+#pontuacao{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cronometro{
+    padding-top: 10rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#questao{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.alternativa-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.6rem;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background-color: white;
+  }
+.alternativa-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #00dcf0;
+    margin: 0.5rem;
+    color: white;
+  }
+
+.alternativa-text {
+    padding: 1.5rem;
+    width: 100%;
+    
+  }
+
+  /* HUD */
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hud-prefix {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  
+  .hud-main-text {
+    text-align: center;
+  }
+  
+  #progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.4rem solid #ffffff;
+    margin-top: 1.5rem;
+  }
+  
+  #progressBarFull {
+    height: 3.4rem;
+    background-color: #56a5eb;
+    width: 0%;
+  }
+
+/* BOTAO */
+#btnAnterior {
+    
+    margin-top: 2rem;
+    margin-left: 10rem;
+
+}
+
+#btnProximo{
+
+    margin-top: 2rem;
+    margin-left: 30rem;
+}
+
+.btJogo:hover{
+    background-color: #5206df;
+    transition: 0.4s;
 }
